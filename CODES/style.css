@@ -464,9 +464,9 @@ form h3{
     transition:transform .3s ease-in-out;
   }
   .navlist-active{
-    transform:translateY(20%);
+    transform:translateY(0);
   }
-  .navlist link{
+  .navlist .link{
     color:var(--secondary-clr);
     font-weight:400;
   }
